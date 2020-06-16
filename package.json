@@ -1,18 +1,16 @@
 {
   "name": "ali-oss-publish",
-  "version": "0.2.2",
+  "version": "0.2.0",
   "description": "a cli interface of publish resources to ali oss",
   "repository": "https://github.com/skordyr/ali-oss-publish.git",
   "author": "skordyr <xyan.sk@gmail.com>",
   "license": "MIT",
   "main": "index.js",
-  "types": "index.d.ts",
   "bin": {
     "ali-oss-publish": "bin/ali-oss-publish.js"
   },
   "files": [
     "*.md",
-    "index.d.ts",
     "index.js",
     "bin",
     "cli",
@@ -23,12 +21,12 @@
     "ali-oss-publish": "node bin/ali-oss-publish.js"
   },
   "dependencies": {
-    "ali-oss": "^6.1.1",
-    "chalk": "^2.4.2",
-    "commander": "^2.20.0"
+    "ali-oss": "^6.0.1",
+    "chalk": "^2.4.1",
+    "commander": "^2.17.1"
   },
   "devDependencies": {
-    "eslint": "^6.0.1"
+    "eslint": "^5.3.0"
   },
   "engines": {
     "node": ">=8"
